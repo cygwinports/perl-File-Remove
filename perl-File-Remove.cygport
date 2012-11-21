@@ -1,0 +1,12 @@
+CPAN_AUTHOR=adamk
+inherit perl
+
+NAME="perl-File-Remove"
+VERSION=1.52
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for removing files and directories"
+DESCRIPTION="File::Remove::remove removes files and directories. It acts like
+/bin/rm, for the most part. Although 'unlink' can be given a list of files, it
+will not remove directories; this module remedies that. It also accepts
+wildcards as arguments for filenames."
